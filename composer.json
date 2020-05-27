@@ -1,5 +1,5 @@
 {
-    "name": "bogardo/mailgun",
+    "name": "daanra/mailgun",
     "description": "Laravel package for sending mail via the Mailgun API",
     "keywords": [
         "mailgun",
@@ -8,7 +8,7 @@
         "email",
         "bogardo"
     ],
-    "homepage": "https://github.com/Bogardo/Mailgun",
+    "homepage": "https://github.com/Daanra/Mailgun",
     "license": "MIT",
     "authors": [
         {
@@ -19,7 +19,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "illuminate/support": "~5.1|^6.0",
+        "illuminate/support": "~5.1|^6.0|^7.0",
         "mailgun/mailgun-php": "^2.1",
         "nesbot/carbon": "^1.26.3 || ^2.0",
         "php-http/message": "^1.3"

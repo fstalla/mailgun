@@ -1,6 +1,6 @@
-# Bogardo/Mailgun
+# Daanra/Mailgun
 
-A package for the Laravel Framework for sending emails using the Mailgun API.
+A package for the Laravel Framework for sending emails using the Mailgun API with support for Laravel 7. Originally forked from [here](https://github.com/Bogardo/Mailgun).
 The syntax for sending emails is very similar to the Laravel Mail component.
 
 Laravel already supports sending emails via the Mailgun API out of the box but it doesn't support Mailgun specific features.
@@ -16,10 +16,10 @@ This packages fills that gap and supports most of the mail features offered by M
 
 > This package makes use of the [mailgun-php](https://github.com/mailgun/mailgun-php) library.
 
-[![Total Downloads](https://poser.pugx.org/bogardo/mailgun/downloads.png)](https://packagist.org/packages/bogardo/mailgun)
-[![Monthly Downloads](https://poser.pugx.org/bogardo/mailgun/d/monthly.png)](https://packagist.org/packages/bogardo/mailgun)
-[![License](https://poser.pugx.org/bogardo/mailgun/license)](https://packagist.org/packages/bogardo/mailgun)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Bogardo/Mailgun?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+[![Total Downloads](https://poser.pugx.org/bogardo/mailgun/downloads.png)](https://packagist.org/packages/daanra/mailgun)
+[![Monthly Downloads](https://poser.pugx.org/bogardo/mailgun/d/monthly.png)](https://packagist.org/packages/daanra/mailgun)
+[![License](https://poser.pugx.org/bogardo/mailgun/license)](https://packagist.org/packages/daanra/mailgun)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Daanra/Mailgun?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 ##### Basic Example
 
@@ -40,14 +40,14 @@ Mailgun::send('emails.invoice', $data, function ($message) {
 ## Version Compatibility
 
 This package currently supports Laravel 5.1 and up.
-For older versions of Laravel please refer to [older versions](https://github.com/Bogardo/Mailgun/releases) of this package.
+For older versions of Laravel please refer to [older versions](https://github.com/Daanra/Mailgun/releases) of this package.
 
 ## Installation
 
 Install the package via composer
 
 ```bash
-composer require bogardo/mailgun
+composer require daanra/mailgun
 ```
 
 If using Laravel 5.1 to 5.4, Register the ServiceProvider and (optionally) the Facade

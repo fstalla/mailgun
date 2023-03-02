@@ -1,6 +1,6 @@
 {
     "name": "daanra/mailgun",
-    "description": "Laravel package for sending mail via the Mailgun API with support for Laravel 8",
+    "description": "Laravel package for sending mail via the Mailgun API with support for Laravel 9 & 10",
     "keywords": [
         "mailgun",
         "laravel",
@@ -18,8 +18,8 @@
         }
     ],
     "require": {
-        "php": ">=7.2.5",
-        "illuminate/support": "^7.0|^8.0",
+        "php": ">=8.0.2",
+        "illuminate/support": "^9.0|^10.0",
         "mailgun/mailgun-php": "^2.1|^3.0",
         "nesbot/carbon": "^2.0",
         "php-http/message": "^1.3"
@@ -28,7 +28,7 @@
         "mockery/mockery": "^1.4",
         "orchestra/testbench": "^6.0",
         "php-http/mock-client": "^1.4.0",
-        "phpunit/phpunit": "~8.0||~9.0",
+        "phpunit/phpunit": "~9.0||~10.0",
         "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
